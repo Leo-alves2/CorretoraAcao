@@ -9,7 +9,11 @@ readme = "README.md"
 python = "^3.12"
 pandas = "^2.2.3"
 streamlit = "^1.39.0"
+yfinance = "^0.2.44"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
