@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "corretoraacao"
+version = "0.1.0"
+description = ""
+authors = ["Leo-alves2 <leo.alves.b.vieira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+streamlit = "^1.39.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
